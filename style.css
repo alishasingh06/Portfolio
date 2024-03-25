@@ -200,7 +200,10 @@ h2 {
 .about-item {
   width: 100%;
   margin: 0.5rem 0;
-  text-align: justify;
+}
+
+.about-item h1 {
+  text-align: center;
 }
 
 .language {
@@ -448,6 +451,7 @@ textarea {
   .content-card {
     padding: 100px 0 0;
   }
+
   .menu {
     flex-direction: row;
     position: fixed;
@@ -503,10 +507,6 @@ textarea {
     }
   }
 
-  /* A little cheat to trick the freecodecamp certification test. It requires 
-the navbar to be on top of the viewport, but I've already done that in previous 
-projects and I think in this one it looks more interesting on the side.
-I hope the freecodecamp team won't be mad at me :) */
   #navbar {
     position: fixed;
     margin: 0;
